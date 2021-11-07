@@ -1,0 +1,299 @@
+.custom-font {
+  font-family: "WindSong", cursive;
+}
+
+body {
+  font-family: emoji !important;
+}
+body .form-control {
+  border-radius: 0px;
+}
+
+.homepage nav {
+  background-color: #545d29;
+}
+.homepage nav .form-inline {
+  position: relative;
+}
+.homepage nav .form-inline .form-control {
+  width: 300px;
+}
+.homepage nav .form-inline .search-icon {
+  display: flex;
+  position: absolute;
+  right: 16px;
+  padding: 5px;
+  cursor: pointer;
+}
+.homepage nav .navbar-nav.contact-icons {
+  color: #ffffff;
+}
+.homepage nav .navbar-nav.contact-icons .nav-item span {
+  display: contents;
+  cursor: pointer;
+}
+.homepage nav .navbar-nav.route-navbar .nav-item .nav-link {
+  color: #ffffff;
+}
+.homepage nav .navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+.homepage nav .navbar-nav .nav-item .line {
+  display: block;
+  height: 15px;
+  width: 1px;
+  border-right: 1px solid #ffffff;
+}
+.homepage section .header-shop {
+  color: #484841;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+.homepage section .header-shop .name-shop-icon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 49px;
+  height: 50px;
+  position: absolute;
+  top: -20px;
+  left: 0px;
+}
+.homepage section .header-shop .name {
+  z-index: 2;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+}
+.homepage section .header-shop .name span {
+  white-space: nowrap;
+}
+.homepage section .header-shop .type-shop {
+  position: absolute;
+  font-size: 21px;
+  right: 5px;
+  top: 72px;
+  color: #545d29;
+  z-index: 2;
+}
+.homepage section .header-shop .since-icon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 182px;
+  height: 29px;
+  position: absolute;
+  top: 99px;
+  right: -36px;
+  color: #545d29;
+}
+.homepage section .header-shop .description {
+  font-size: 20px;
+  margin-top: 75px;
+}
+.homepage section .header-shop .bg-shape {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 229px;
+  height: 176px;
+  top: -14px;
+  left: 45px;
+  z-index: -1;
+}
+.homepage section .section-menu {
+  border-top: 1px solid #b9c090;
+  border-bottom: 1px solid #b9c090;
+}
+.homepage section .menu {
+  font-size: 32px;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: auto;
+}
+.homepage section .menu .nav-item .menu-active {
+  background-size: unset !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.homepage section .menu .nav-item .nav-link {
+  color: #484841;
+}
+.homepage section .landing {
+  height: 760px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./assets/landing.png);
+}
+.homepage section .landing .landing-box {
+  flex-direction: column;
+  color: white;
+  height: 200px;
+  margin: auto;
+  border: 2px solid white;
+  background: transparent;
+  padding: 15px;
+}
+.homepage section .landing .landing-box .landing-bg-light {
+  background: white;
+  height: 100%;
+  width: 100%;
+  opacity: 50%;
+}
+.homepage section .landing .landing-box .content {
+  position: absolute;
+  color: #545d29;
+}
+.homepage section .landing .landing-box .content div:first-child {
+  font-size: 78px;
+  font-family: "Bebas Neue", cursive;
+}
+.homepage section .landing .landing-box .content .view-more {
+  display: block;
+  padding: 0 15px;
+  border: 2px solid #545d29;
+  font-weight: 600;
+  border-radius: 7px;
+  width: fit-content;
+  margin: auto;
+  cursor: pointer;
+  margin-top: -20px;
+  z-index: 2;
+}
+.homepage section .wrap-main-content .input-join {
+  position: relative;
+}
+.homepage section .wrap-main-content .input-join .title {
+  font-size: 29px;
+  font-weight: 600;
+}
+.homepage section .wrap-main-content .input-join .btn-main-color {
+  background-color: #545d29;
+  border-radius: 0;
+  color: white;
+}
+.homepage section .wrap-main-content .input-join .background {
+  padding-top: 44px !important;
+  padding-left: 44px !important;
+  width: 100%;
+  z-index: 1;
+  border: 2px solid #545d29;
+}
+.homepage section .wrap-main-content .input-join .border-join {
+  position: absolute;
+  transform: translate(10px, 10px);
+  background-color: #b9c090;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.homepage section .wrap-main-content .widgets-router .widget .bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+.homepage section .wrap-main-content .widgets-router .widget .title-widget {
+  font-size: 32px;
+  color: #545d29;
+}
+.homepage section .wrap-main-content .best-seller .title {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+}
+.homepage section .wrap-main-content .best-seller .title .background {
+  background-image: url("./assets/bg-shape2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 250px;
+  height: 111px;
+  z-index: -1;
+  transform: translateX(-7px);
+}
+.homepage section .wrap-main-content .best-seller .product .image {
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.homepage section .wrap-main-content .best-seller .product .information .category {
+  font-size: small;
+}
+.homepage section .wrap-main-content .best-seller .product .information .name {
+  font-size: x-large;
+}
+.homepage section .wrap-main-content .best-seller .product .information .rank {
+  display: flex;
+}
+.homepage section .wrap-main-content .best-seller .product .information .rank .intact-item,
+.homepage section .wrap-main-content .best-seller .product .information .rank .half-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+.homepage section .wrap-main-content .best-seller .product .information .rank .half-item {
+  background-image: url("./assets/rank1.png");
+}
+.homepage section .wrap-main-content .best-seller .product .information .rank .intact-item {
+  background-image: url("./assets/rank.png");
+}
+.homepage section .wrap-main-content .best-seller .product .information .price {
+  font-size: x-large;
+}
+
+@media (max-width: 576px) {
+  .header-shop .since-icon {
+    right: -13px !important;
+  }
+
+  section .section-menu .menu {
+    font-size: 20px;
+  }
+  section .section-menu .menu .menu-active {
+    background-image: none !important;
+  }
+  section .landing {
+    background-position: center !important;
+    height: 500px !important;
+  }
+  section .landing .landing-box .content div:first-child {
+    font-size: 70px !important;
+  }
+  section .wrap-main-content .best-seller .title {
+    font-size: 50px !important;
+  }
+  section .wrap-main-content .best-seller .title .background {
+    transform: translateX(-7px) translateY(-20px) !important;
+  }
+  section .product .image {
+    height: 185px !important;
+  }
+}
+@media (max-width: 992px) {
+  nav .form-inline {
+    display: inline-flex;
+  }
+  nav .contact-icons {
+    padding: 0 16px;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1200px) {
+  section .wrap-main-content {
+    max-width: 1300px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
